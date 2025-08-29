@@ -12,8 +12,7 @@ Abaixo estão alguns dos programas que você encontrará aqui, cada um projetado
 
 * **`Calculadora.py`**: Uma calculadora funcional para as quatro operações básicas, praticando a lógica de programação e a entrada de dados do usuário.
 * **`Gerador_de_senhas.py`**: Uma ferramenta prática que cria senhas seguras e aleatórias, aplicando o uso de bibliotecas como a `random`.
-* **`jogo_do_NIM.py`**: É um jogo de estratégia onde o computador sabe a tática para vencer. Sua chance de ganhar é quando o computador é forçado a começar em uma posição desfavorável.
-* **`Pedra,Papel_e_Tesoura.py`**: A versão em Python do famoso jogo, onde o usuário joga contra o computador, ideal para treinar condicionais.
+* **`Funcao_Jogo_nim.py`**: É um jogo de estratégia onde o computador sabe a tática para vencer. Sua chance de ganhar é quando o computador é forçado a começar em uma posição desfavorável.
 * **`fatorial.py`** e **`fatorial_recursivo.py`**: Duas abordagens para o cálculo de fatorial, demonstrando a diferença entre soluções iterativas e recursivas.
 * **E muitos outros!** Sinta-se à vontade para explorar os arquivos e ver outros exemplos de código.
 
@@ -50,7 +49,7 @@ python nome_do_arquivo.py
 ```
 **Exemplo prático:**
 ```bash
-python jogo_do_NIM.py
+python Funcao_Jogo_nim.py
 ```
 
 ---
