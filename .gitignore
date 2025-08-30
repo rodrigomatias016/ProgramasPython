@@ -1,1 +1,63 @@
 /temp
+# Arquivo .gitignore para projetos Python
+# Comentários do seu parceiro de programação, Rodrigo :)
+
+# 1. Ambientes Virtuais
+# Nunca envie seu ambiente virtual! Ele é específico da sua máquina e pode ser muito pesado.
+# Cada desenvolvedor cria o seu a partir do arquivo requirements.txt.
+venv/
+env/
+.venv/
+.env/
+*/activate
+
+# 2. Arquivos de Credenciais e Configurações Sensíveis
+# MUITO IMPORTANTE para segurança!
+.env
+*.env
+config.ini
+credentials.json
+
+# 3. Bytecode e Cache do Python
+# São arquivos que o Python gera para rodar o código mais rápido.
+# Eles são recriados automaticamente, então não precisam ser versionados.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 4. Arquivos de IDEs e Editores de Código
+# Configurações pessoais do seu ambiente de desenvolvimento.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 5. Arquivos de Testes e Cobertura de Código
+# Relatórios e caches gerados por ferramentas de teste.
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# 6. Pacotes e Distribuição (Build)
+# Pastas e arquivos gerados quando você "empacota" seu projeto para distribuição.
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 7. Bancos de Dados Locais
+# Arquivos de bancos de dados como SQLite, usados para desenvolvimento local.
+*.sqlite3
+*.db
+
+# 8. Arquivos de Log
+# Registros de eventos da aplicação.
+*.log
+
+# 9. Arquivos específicos do Sistema Operacional
+# Lixo gerado pelo macOS e Windows.
+.DS_Store
+Thumbs.db
